@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgb(208, 201, 201) 1px 0px 2px;
+
+}
+
+.logo img {
+    margin-left: 130px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 25px;
+    font-size: large;
+
+}
+
+.navbar1 a:hover {
+    text-decoration: underline;
+    color: #132a24;
+}
+
+.navoptions {
+    margin-right: 250px;
+}
+
+.user input {
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+    padding: 8px 30px;
+    margin-right: 100px;
+    border: 1px wheat solid;
+    font-weight: 100;
+    border-radius: 50px;
+    outline-color: rgb(67, 67, 67);
+}
+
+.user img {
+    margin-right: 150px;
+}
+
+.he {
+    margin-left: 130px;
+    padding: 15px 0px;
+}
+.he a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxx {
+    background-color: #dfc49d   ;
+    width: 1519.5px;
+    height: 300px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    margin-left: 210px;
+    margin-top: 30px;
+}
+.dv {
+    margin-left: 210px;
+    padding-top: 20px;
+}
+
+.dv h3 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #132a24;
+}
+
+
+
+
+.dv button {
+    padding: 10px 50px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    transition: 1s;
+
+}
+
+.dv button:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+.hc{
+    margin-left: 130px;
+    margin-top: 40px;
+    padding-bottom: 25px;
+}
+
+.hc h2 {
+    color: #132a24;
+}
+
+.hcoptions {
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+.hcimg {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.hcb p {
+    padding-left: 15px;
+    color: rgb(68, 68, 68);
+}
+
+.llm {
+    text-align: center;
+
+}
+
+.llm button {
+    padding: 10px 50px;
+    color: white;
+    background-color: black;
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    transition: 1s;
+    margin-bottom: 30px;
+}
+
+.llm button:hover {
+    cursor: pointer;
+    background-color: rgb(14, 14, 14);
+}

@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.696);
+}
+
+.main {
+    border: 2px solid rgb(227, 222, 222);
+    margin-top: 110px;
+    width: 700px;
+    margin-left: 400px;
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.lo h2 {
+    color: #132a24;
+    padding-bottom: 30px;
+}
+
+.un input {
+    width: 680px;
+    margin-top: 5px;
+    padding: 5px 0px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.siup {
+    padding-bottom: 30px;
+}
+
+.siup p {
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+}
+
+.siup a {
+    color: #0c553a;
+    font-weight: bold;
+}
+
+.lobu {
+    text-align: center;
+}
+
+.lobu button {
+    padding: 12px 150px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: #00754A;
+    color: white;
+    border: none;
+    transition: 1s;
+}
+
+.lobu button:hover {
+    background-color: #125342;
+    cursor: pointer;
+}
+
+.lobu a {
+    color: #0c553a;
+    font-weight: bold;
+}
+
+.lobu p {
+    font-size: 14px;
+    color: rgb(74, 74, 74);
+}

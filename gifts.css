@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgb(208, 201, 201) 1px 0px 2px;
+    z-index: 1;
+
+}
+
+.logo img {
+    margin-left: 130px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 25px;
+    font-size: large;
+
+}
+
+.navbar1 a:hover {
+    text-decoration: underline;
+    color: #132a24;
+}
+
+.navoptions {
+    margin-right: 250px;
+}
+
+.user input {
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+    padding: 8px 30px;
+    margin-right: 100px;
+    border: 1px wheat solid;
+    font-weight: 100;
+    border-radius: 50px;
+    outline-color: rgb(67, 67, 67);
+}
+
+.user img {
+    margin-right: 150px;
+}
+
+.he {
+    margin-left: 130px;
+    padding: 15px 0px;
+}
+
+.he a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar2 {
+    width: 1519.5px;
+    height: 300px;
+    background-color: #1e3932;
+}
+
+.boxx {
+    background-color: #dfc49d;
+    width: 1265px;
+    margin-left: 140px;
+    cursor: pointer;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 12px 0px;
+}
+
+.content p {
+    padding-bottom: 25px;
+    color: rgb(40, 36, 36);
+}
+
+.content h2 {
+    padding-bottom: 12px;
+    color: rgb(19, 18, 18);
+}
+
+
+
+.main2 {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.dv button {
+    padding: 15px 60px;
+    color: white;
+    background-color: #00754A;
+    border-radius: 100px;
+    border: none;
+    margin-left: 800px;
+    font-weight: bold;
+    transition: 1s;
+
+}
+
+.dv button:hover {
+    cursor: pointer;
+    background-color: #0c553a;
+    color: white;
+}
+
+.mon p {
+    color: rgb(47, 40, 40);
+}
+
+.b2 {
+    padding-left: 50px;
+
+}
+
+.any {
+    margin-left: 130px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    color: #132a24;
+}
+
+.orders2 {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 170px;
+    flex-wrap: wrap;
+}
+
+.c1 {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.kaas {
+    text-align: center;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+.t1,
+.t2 {
+    border: 1px solid rgb(203, 197, 197);
+    width: 350px;
+    box-shadow: gray 1px 1px 6px;
+    background-color: white;
+    margin-right: 80px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-right: 12px;
+    margin-top: 30px;
+
+}
+
+.na p {
+    color: #6c757D;
+    font-size: 14px;
+}
+
+.na h4 {
+    padding-bottom: 5px;
+}
+
+.mi {
+    font-weight: bold;
+}
+
+.z1 img {
+    border-radius: 10px;
+    position: relative;
+    right: 40px;
+    box-shadow: 1px 1px 10px gray;
+    transition: 1.5s;
+}
+
+.z1 img:hover {
+    transform: scale(1.3);
+}
+
+.buu button {
+    margin-right: 20px;
+    padding: 8px 22px;
+    border-radius: 100px;
+    background-color: #00754A;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+
+.buu button:hover {
+    cursor: pointer;
+    background-color: #084b32;
+    color: white;
+}
+
+.main4 {
+    background-color: #132a24;
+    padding-left: 130px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 80px;
+}
+
+.end {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.au {
+    padding-right: 110px;
+    color: white;
+}
+
+.au a {
+    display: block;
+    padding: 15px 0px;
+    font-weight: lighter;
+    transition: 1s;
+}
+
+.au a:hover {
+    cursor: pointer;
+    color: #a8b5be;
+}
+
+.au h3 {
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.au img {
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.lnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lop a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+    transition: 1s;
+    font-weight: lighter;
+
+}
+
+.ter a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    top: 20px;
+    transition: 1s;
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+
+.lop a:hover,
+.ter a:hover {
+    cursor: pointer;
+    color: #a8b5be;
+}
+
+.lop span {
+    position: relative;
+    top: 20px;
+    color: white;
+    cursor: default;
+}
+
+.ph:hover {
+    cursor: pointer;
+}
+

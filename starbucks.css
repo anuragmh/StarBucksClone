@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    box-shadow: rgb(208, 201, 201) 1px 0px 2px;
+
+}
+
+.logo img {
+    margin-left: 130px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 25px;
+    font-size: large;
+}
+
+.navbar1 a:hover {
+    text-decoration: underline;
+    color: #132a24;
+}
+
+.navoptions {
+    margin-right: 250px;
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e3932;
+    padding: 23px;
+
+}
+
+.pp p {
+    color: white;
+    margin-left: 110px;
+    font-weight: lighter;
+    font-size: x-large;
+
+}
+
+.su button {
+    background: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 1px white solid;
+    color: white;
+    margin-right: 150px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.user input {
+    position: relative;
+    bottom: 10px;
+    width: 200px;
+    padding: 8px 30px;
+    margin-right: 100px;
+    border: 1px wheat solid;
+    font-weight: 100;
+    border-radius: 50px;
+    outline-color: rgb(67, 67, 67);
+}
+
+.user img {
+    margin-right: 150px;
+}
+
+.te h2 {
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 600;
+    font-weight: bolder;
+    color: #132a24;
+}
+
+.imagg {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagg img {
+    border-radius: 100px;
+}
+
+.imagg p {
+    padding-top: 5px;
+    font-weight: bolder;
+}
+
+.imagg img:hover {
+    border: 2px solid rgb(0, 59, 0);
+    cursor: pointer;
+    height: 96.5px;
+    width: 96.5px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.su button:hover {
+    cursor: pointer;
+}
+
+.img2 p {
+    padding-left: 17px;
+}
+
+
+
+.img3 p {
+    padding-left: 33px;
+}
+
+.img4 p {
+    padding-left: 7px;
+}
+
+.img5 p {
+    padding-left: 7px;
+}
+
+.img6 p {
+    padding-left: 27px;
+}
+
+
+.boxx {
+    background-color: #e96e45;
+    width: 1280px;
+    margin-left: 140px;
+    margin-top: 100px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 25px 0px;
+}
+
+.content p {
+    padding-bottom: 12px;
+    color: rgb(40, 36, 36);
+}
+
+.content h2 {
+    padding-bottom: 12px;
+    color: rgb(19, 18, 18);
+}
+
+
+
+.main2 {
+    display: flex;
+    padding-bottom: 25px;
+}
+
+.dv button {
+    padding: 15px 60px;
+    color: white;
+    background-color: #00754A;
+    border-radius: 100px;
+    border: none;
+    margin-left: 800px;
+    font-weight: bold;
+    transition: 1s;
+
+}
+
+.dv button:hover {
+    cursor: pointer;
+    background-color: #0c553a;
+    color: white;
+}
+
+.mon p {
+    color: rgb(47, 40, 40);
+}
+
+.b2 {
+    padding-left: 50px;
+
+}
+
+.off {
+    margin-left: 100px;
+    padding: 30px;
+    font-size: 600;
+    font-weight: bolder;
+    color: #132a24;
+
+}
+
+.orders {
+    display: flex;
+    margin-left: 115px;
+    margin-bottom: 80px;
+
+}
+
+
+
+.p1,
+.p2,
+.p3 {
+    border: 1px solid rgb(203, 197, 197);
+    margin: 0px 20px;
+    width: 400px;
+    box-shadow: gray 1px 1px 6px;
+}
+
+.p1,
+.p2,
+.p3:hover {
+    cursor: pointer;
+}
+
+
+.cont {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+
+}
+
+.f1 {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    align-items: center;
+
+}
+
+.cont h4 {
+    padding-bottom: 5px;
+}
+
+.cont p {
+    padding-bottom: 20px;
+    color: #6c757D;
+    font-size: 10px;
+}
+
+.cont span {
+    font-size: 14px;
+    color: rgb(62, 62, 62);
+    font-weight: lighter;
+}
+
+.pr {
+    font-weight: bold;
+}
+
+.buu button {
+    margin-right: 20px;
+    padding: 8px 22px;
+    border-radius: 100px;
+    background-color: #00754A;
+    border: none;
+    color: white;
+    transition: 1s;
+}
+
+.buu button:hover {
+    cursor: pointer;
+    background-color: #084b32;
+    color: white;
+}
+
+.main1 {
+    background-color: rgb(232, 232, 232);
+    padding-left: 130px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.ff {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.me a {
+    margin-right: 110px;
+    text-decoration: none;
+    color: #025f3d;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.rec {
+    padding: 30px 30px 30px 0px;
+    font-size: 600;
+    font-weight: bolder;
+    color: #132a24;
+}
+
+.orders2 {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.c1 {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.na h4,
+.na p {
+    padding-left: 20px;
+}
+
+.kaas {
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.t1,
+.t2 {
+    border: 1px solid rgb(203, 197, 197);
+    width: 400px;
+    box-shadow: gray 1px 1px 6px;
+    background-color: white;
+    margin-right: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.na p {
+    color: #6c757D;
+    font-size: 10px;
+}
+
+.na h4 {
+    padding-bottom: 5px;
+}
+
+.mi {
+    font-weight: bold;
+}
+
+.z1 img {
+    border-radius: 10px;
+}
+
+.main3 {
+    background-color: rgb(232, 232, 232);
+    padding-left: 130px;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+.uu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dm a {
+    margin-right: 110px;
+    text-decoration: none;
+    color: #025f3d;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lm {
+    padding: 30px 30px 30px 0px;
+    font-size: 600;
+    font-weight: bolder;
+    color: #132a24;
+}
+
+.mimg {
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/18/20/50/seeds-of-roasted-coffee-5060988_1280.jpg);
+    background-size: cover;
+    width: 1275px;
+    height: 370px;
+    border-radius: 10px;
+    color: white;
+    padding-left: 30px;
+}
+
+.mimg:hover {
+    cursor: pointer;
+}
+
+.mimg h1 {
+    padding-top: 180px;
+    padding-bottom: 25px;
+}
+
+.mimg p {
+    padding-bottom: 40px;
+}
+
+.mimg button {
+    padding: 8px 55px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.mimg button:hover {
+    cursor: pointer;
+    background-color: rgb(213, 190, 153);
+}
+
+.main4 {
+    background-color: #132a24;
+    padding-left: 130px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 80px;
+}
+
+.end {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.au {
+    padding-right: 110px;
+    color: white;
+}
+
+.au a {
+    display: block;
+    padding: 15px 0px;
+    font-weight: lighter;
+    transition: 1s;
+}
+
+.au a:hover {
+    cursor: pointer;
+    color: #a8b5be;
+}
+
+.au h3 {
+    cursor: pointer;
+    padding-bottom: 5px;
+}
+
+.au img {
+    padding-top: 10px;
+}
+
+.lnav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lop a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    position: relative;
+    top: 20px;
+    font-weight: lighter;
+    transition: 1s;
+    font-weight: lighter;
+
+}
+
+.ter a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    position: relative;
+    top: 20px;
+    transition: 1s;
+    font-size: 12px;
+    font-weight: lighter;
+
+}
+
+.lop a:hover,
+.ter a:hover {
+    cursor: pointer;
+    color: #a8b5be;
+}
+
+.lop span {
+    position: relative;
+    top: 20px;
+    color: white;
+    cursor: default;
+}
